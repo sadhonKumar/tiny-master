@@ -1,0 +1,50 @@
+@media (max-width: 991.98px) {
+    .header .navbar-nav.mr-auto {
+        position: relative;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footer form {
+        width: 80%;
+        position: relative;
+        min-height: 40px;
+
+    }
+    .footer .footer-mail {
+        width: 70%;
+        position: absolute;
+        left: 0;
+    }
+    .footer button {
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+
+@media (max-width: 575.98px) { 
+
+    .main-slider .tab img{
+        width: 90%;
+        left: 50%;
+    }
+    .header .main-logo a h2{
+        font-size: 30px;
+        margin-top: 0;
+    }
+ 
+}
+
+
+@media (max-width: 360px){
+    
+    .footer form{
+        width: 100%;
+    }
+    .footer .icons li a {
+        padding: 10px 15px;
+        font-size: 30px;
+    }
+    
+}

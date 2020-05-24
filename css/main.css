@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+/* header */
+.header {
+    position: relative;
+    overflow: hidden;
+    background: #fcdb00;
+    padding: 40px 0;
+}
+.header .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: transparent !important;
+    position: relative;
+}
+.header .navbar-nav.mr-auto {
+    position: absolute;
+    right: 0;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px 30px;
+}
+.header .main-logo a img{
+    float: left;
+}
+.header .main-logo a h2{
+    overflow: hidden;
+    margin-left: 55px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+
+/* main slider */
+.main-slider{
+    position: relative;
+    overflow: hidden;
+    padding: 80px 15px;
+    padding-bottom: 0px;
+}
+.main-slider h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 35px;
+}
+.main-slider h5{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.main-slider p{
+    line-height: 26px;
+    font-weight: normal;
+    color: #383535;
+}
+.main-slider ul{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.main-slider ul li{
+    list-style: none;
+    float: left;
+}
+.main-slider ul li a{
+    padding: 10px 25px;
+    display: block;
+    color: #010101;
+    font-size: 35px;
+}
+.main-slider ul:last-child li a{
+    padding-left: 0;
+}
+.main-slider .tab {
+    position: relative;
+    width: 100%;
+    height: 480px;
+}
+.main-slider .tab img{
+    position: absolute;
+    width: 60%;
+    left: 65%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.main-slider .owl-dot span {
+    background: #FEED80 !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+.main-slider .owl-dot.active span{
+    background: #FFF !important;
+}
+
+
+
+
+
+
+
+
+
+/* features */
+.features{
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.features h2{
+    text-align: center;
+    font-weight: 700;
+}
+.features p{
+    text-align: center;
+    color: #5D5F62;
+    margin-bottom: 50px;
+}
+.features .box {
+    padding-right: 50px;
+    margin: 25px 0;
+}
+.features .box .image{
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+.features .box .text{
+    overflow: hidden;
+}
+.features .box .text p{
+    text-align: left;
+    color: #989898;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* footer */
+.footer {
+    background: #010101;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+.footer h2{
+    color: #FCDB00;
+    font-weight: 600;
+}
+.footer p{
+    color: #707070;
+    line-height: 25px;
+}
+.footer form{
+    overflow: hidden;
+    width: 60%;
+    margin: 40px auto;
+}
+.footer .footer-mail {
+    width: 80%;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.footer button {
+    background: #FCDB00;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px 20px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    outline: none;
+}
+.footer .icons{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.footer .icons li{
+    list-style: none;
+    float: left;
+}
+.footer .icons li a{
+    display: block;
+    padding: 10px 20px;
+    font-size: 40px;
+    color: #FCDB00;
+}
+.footer .icons:last-child li a{
+    padding-left: 0;
+}
+.footer .text {
+    text-align: left;
+    margin-top: 100px;
+}
+.footer .text p{
+     color: #fff;
+}
+.footer .text ul{
+    padding: 0;
+    margin: 0;
+}
+.footer .text ul li{
+    list-style: none;
+    margin: 5px 0;
+}
+.footer .text ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .text
+.footer .text
+
